@@ -1,0 +1,130 @@
+.contact-page {
+    padding: 50px 30px;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.contact-form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.contact-info {
+    background: #2a74ff;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    size-adjust:inherit;
+}
+.contact-info:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+}
+.contact-link{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: right;
+}
+.btn-primary{
+    background-color: #2a74ff;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+    
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+.section-title{
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.section-lead{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+input,textarea{
+   background-color:  rgb(190, 186, 159);
+    width: 100%;
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: inherit;
+}
+footer {
+    background: #000000;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.btn-primary1{
+    background-color: #2a74ff;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+    
+}
+.btn-primary1:hover{
+    transform: scale(1.1);
+}
+.map-container {
+    margin-top: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+.map-container iframe {
+    filter: grayscale(100%) contrast(90%);
+    transition: 0.3s ease;
+}
+
+.map-container iframe:hover {
+    filter: grayscale(0%);
+}

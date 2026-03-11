@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Wanderlust Travels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+
+
+<nav class="navbar">
+    <img src="./images/logo.png" alt="Logo" width="80px"/>
+    <ul class="navbar-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./destination.html">Destinations</a></li>
+        <li><a href="./contact.html" class="btn-primary">Contact Us</a></li>
+    </ul>
+</nav>
+
+<section class="contact-page">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-lead">We would love to hear from you!</p>
+
+    <div class="contact-layout">
+
+     
+        <div class="contact-form">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+
+                <label>Name</label>
+                <input type="text" name="name" required>
+
+                <label>Email</label>
+                <input type="email" name="email" required>
+
+                <label>Phone</label>
+                <input type="text" name="phone">
+
+                <label>Message</label>
+                <textarea name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+
+      
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><strong>📍 Address:</strong> Bangalore, India</p>
+            <p><strong>📞 Phone:</strong class=" contact-link"> +91 98765432455</p>
+            <p><strong>📧 Email:</strong> info@wanderlust.com</p>
+        </div>
+
+    </div>
+</section>
+<section>
+    <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.7625643117713!2d76.45607797520037!3d15.335133285242948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb77ff10783f257%3A0x419c571d90d6ea0d!2sVirupaksha%20Temple%2C%20Hampi!5e0!3m2!1sen!2sin!4v1773217184001!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        width="100%" 
+        height="350" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Wanderlust Tours and Travels. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
